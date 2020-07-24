@@ -6,7 +6,7 @@ I'll put them here below 👇
 
 ---
 
-## Index
+# Index
 - [Packages](#packages)
 - [Functions](#functions)
 - [Variables](#variables)
@@ -15,7 +15,7 @@ I'll put them here below 👇
 
 ---
 
-### Packages
+## Packages
 The packages indicate the kotlin files folder  
 For example, in this project the folder `src` contains the folder ```main```.  
 The folder `main` acts like a package.
@@ -41,7 +41,7 @@ package main // Is important to define the same package as the file where it's g
 fun sum(number1: Int, number2: Int) = number1 + number2
 ```
 
-### Functions
+## Functions
 The functions in kotlin can be written in two ways, if they return a value  
 For example:  
 ```kotlin
@@ -62,7 +62,7 @@ val number2 = 2
 println("The sum of $number1 and $number2 is equal to ${sum(number1, number2)}")
 ```
 
-### Variables
+## Variables
 The ***constants*** or ***variables read-only*** are defined with the keyword `val` as in this example:  
 ```kotlin
 val two = 2
@@ -75,7 +75,7 @@ x += 1
 println(x)
 ```
 
-### Conditional Expressions
+## Conditional Expressions
 In Kotlin the conditional expressions are defined like this example:  
 ```kotlin
 fun maxOf(number1: Int, number2: Int) {
@@ -102,7 +102,7 @@ But it could be written in the simpler way
 fun maxOf(number1: Int, number2: Int) = if (number1 > number2) number1 else number2
 ```
 
-### When Expression
+## When Expression
 The `when` expression is used like the `switch` expression:  
 ```kotlin
 when(x) {
